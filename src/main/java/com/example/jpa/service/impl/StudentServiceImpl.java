@@ -19,4 +19,9 @@ private final StudentRepository studentRepository;
         return studentRepository.findAll();
         //Salam
     }
+
+    @Override
+    public Student getById(Integer id) {
+        return studentRepository.findById(id).get();
+    }
 }
