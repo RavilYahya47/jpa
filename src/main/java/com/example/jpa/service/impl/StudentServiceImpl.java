@@ -17,5 +17,6 @@ private final StudentRepository studentRepository;
     @Override
     public List<Student> getAll() {
         return studentRepository.findAll();
+        //Salam
     }
 }
